@@ -4,13 +4,13 @@ import { addCount,removeCount,clearCount } from "../utils/CountSlice";
 const ButtonCount = ()=> {
     const dispatch = useDispatch()
     const addToCount = ()=>{
-     dispatch(addCount)
+     dispatch(addCount())
     }
     const removeToCount = ()=>{
-        dispatch(removeCount)
+        dispatch(removeCount())
     }
     const clearToCount = ()=>{
-        dispatch(clearCount)
+        dispatch(clearCount())
     }
 
     return(

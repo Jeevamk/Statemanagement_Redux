@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit'
-import CountReducer from './CountSlice'
+import countReducer from './CountSlice'
 
 const appStore = configureStore({
     reducer:{
-        count :CountReducer
+        count :countReducer
     }
 })
 
